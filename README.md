@@ -1,2 +1,5 @@
 # UDP_File_Transfer
-CN1602 Project
+
+### UDP file transfer [.txt/.mp3/.jpg etc] between client and server using socket programming in Python
+
+Completed as part of CN1602 Project
