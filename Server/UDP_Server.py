@@ -6,7 +6,7 @@ import sys
 
 def checkArg():
     if len(sys.argv) != 2:
-        print("[ERROR] Enter Host Address and PORT number")
+        print("[ERROR] Enter PORT number")
         sys.exit()
     else:
         print("Success!")
@@ -28,7 +28,7 @@ def ServerList():
     print("Message Sent to Client.")
     print("In Server, List function")
     F = os.listdir(
-        path="C:/Kevin's Stuff/University Files/Sixth Semester/Computer Networks/Project/Server")
+        path=os.path.dirname(os.getcwd()))
     Lists = []
     for file in F:
         Lists.append(file)
